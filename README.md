@@ -35,3 +35,9 @@ This project demonstrates practical understanding of:
 - Shell command parsing
 - Low-level systems programming in C
 
+## Note
+
+You will need a RISC-V "newlib" tool chain from
+https://github.com/riscv/riscv-gnu-toolchain, and qemu compiled for
+riscv64-softmmu.  Once they are installed, and in your shell
+search path, you can run "make qemu".
