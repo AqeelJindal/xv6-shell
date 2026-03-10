@@ -50,15 +50,24 @@ you can run:
 
 ```bash
 make qemu
+```
 
-# xv6-shell
-Custom Unix-style shell implementation in xv6 supporting command execution, pipes, and process management using C
+XV6-SHELL
+----------
 
-This project implements a custom Unix-style shell in the xv6 operating system as part of an Operating Systems coursework project.
+Custom Unix-style shell implementation in xv6 supporting command execution,  
+pipes, and process management using C.
 
-The shell parses and executes user commands, supporting features such as command execution, pipelines, and process management. It interacts directly with the xv6 kernel using system calls like `fork()`, `exec()`, and `wait()` to create and manage processes.
+This project implements a custom Unix-style shell in the xv6 operating  
+system as part of an Operating Systems coursework project.
 
-# FEATURES
+The shell parses and executes user commands, supporting features such as  
+command execution, pipelines, and process management. It interacts  
+directly with the xv6 kernel using system calls like `fork()`, `exec()`,  
+and `wait()` to create and manage processes.
+
+FEATURES
+--------
 
 - Command parsing and execution
 - Support for command pipelines (`|`)
@@ -66,15 +75,16 @@ The shell parses and executes user commands, supporting features such as command
 - Program execution using `exec()`
 - Parent-child process synchronization using `wait()`
 
-# TECHNOLOGIES
+TECHNOLOGIES
+------------
 
 - C
 - xv6 Operating System
 - Unix system calls
 - Linux development environment
 
-
-# LEARNING OUTCOMES
+LEARNING OUTCOMES
+-----------------
 
 This project demonstrates practical understanding of:
 
